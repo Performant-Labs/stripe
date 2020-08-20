@@ -1,0 +1,9 @@
+name: Stripe
+type: module
+description: Stripe
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Stripe
+dependencies:
+  - drupal:system (>= 8.3.x)
+configure: stripe.settings

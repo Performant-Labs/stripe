@@ -1,0 +1,29 @@
+{
+  "name": "performant_labs/stripe",
+  "type": "drupal-module",
+  "description": "Stripe",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/stripe",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/stripe",
+    "source": "http://cgit.drupalcode.org/stripe"
+  },
+  "authors": [
+    {
+      "name": "Alvaro Mollo",
+      "homepage": "https://github.com/alvarito75",
+      "role": "Maintainer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://github.com/Performant-Labs/stripe"
+    }
+  ],
+  "require": {
+    "stripe/stripe-php": "^6.0"
+  }
+}
